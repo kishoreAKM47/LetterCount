@@ -1,0 +1,60 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.calculate-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.heading {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+.label-text {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 2px;
+}
+.text {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  color: #e4e7eb;
+  font-size: 16px;
+  font-family: 'Roboto';
+  border: 1px solid #ffffff;
+}
+.letters {
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #219a6f;
+  font-family: 'Roboto';
+  text-align: center;
+  min-width: 100px;
+  max-width: 240px;
+  padding: 20px;
+}
+.image {
+  height: 200px;
+  width: 200px;
+}
